@@ -2,14 +2,13 @@
 // import reactLogo from './assets/react.svg'
 // import './App.css'
 
+import Post from "./components/Post";
+
 export default function App() {
- 
-
   return (
-    <div className="App">
-     test
-    </div>
-  )
+    <main>
+      <Post name="Alex" body="Text goes here" />
+      <Post name="John" body="Random goes here" />
+    </main>
+  );
 }
-
-

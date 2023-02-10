@@ -2,13 +2,12 @@
 // import reactLogo from './assets/react.svg'
 // import './App.css'
 
-import Post from "./components/Post";
+import PostList from "./components/PostList";
 
 export default function App() {
   return (
     <main className="wrapper">
-      <Post name="Alex" body="Text goes here" />
-      <Post name="John" body="Random goes here" />
+      <PostList />
     </main>
   );
 }

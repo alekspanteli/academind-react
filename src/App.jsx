@@ -6,7 +6,7 @@ import Post from "./components/Post";
 
 export default function App() {
   return (
-    <main>
+    <main className="wrapper">
       <Post name="Alex" body="Text goes here" />
       <Post name="John" body="Random goes here" />
     </main>
